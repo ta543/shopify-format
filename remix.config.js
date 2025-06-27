@@ -13,6 +13,8 @@ if (
 /** @type {import('@remix-run/dev').AppConfig} */
 module.exports = {
   ignoredRouteFiles: ["**/.*"],
+  serverBuildTarget: 'vercel',
+  server: './server.js',
   serverBuildDirectory: "dist",
   appDirectory: "app",
   serverModuleFormat: "cjs",
