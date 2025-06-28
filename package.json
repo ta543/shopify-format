@@ -7,7 +7,7 @@
     "config:link": "shopify app config link",
     "dev": "remix dev",
     "build": "remix build",
-    "start": "remix-serve build",
+    "start": "remix-serve build/index.js",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
     "config:use": "shopify app config use",
