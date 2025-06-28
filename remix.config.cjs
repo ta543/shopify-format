@@ -16,6 +16,7 @@ module.exports = {
   serverBuildTarget: 'vercel',
   server: './server.mjs',
   serverBuildDirectory: "build",
+  serverBuildPath: "build/index.cjs",
   appDirectory: "app",
   serverModuleFormat: "cjs",
   dev: { port: process.env.HMR_SERVER_PORT || 8002 },
