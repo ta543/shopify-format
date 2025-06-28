@@ -1,6 +1,8 @@
 {
   "name": "store-currency-format",
   "private": true,
+  "type": "module",
+  "main": "server.mjs",
   "scripts": {
     "config:link": "shopify app config link",
     "dev": "remix dev",
@@ -18,7 +20,6 @@
     "graphql-codegen": "graphql-codegen",
     "vite": "vite"
   },
-  "type": "module",
   "engines": {
     "node": "^18.20 || ^20.10 || >=21.0.0"
   },

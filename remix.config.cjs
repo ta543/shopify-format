@@ -14,7 +14,7 @@ if (
 module.exports = {
   ignoredRouteFiles: ["**/.*"],
   serverBuildTarget: 'vercel',
-  server: './server.js',
+  server: './server.mjs',
   serverBuildDirectory: "dist",
   appDirectory: "app",
   serverModuleFormat: "cjs",
