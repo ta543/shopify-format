@@ -17,7 +17,7 @@ module.exports = {
   server: './server.mjs',
   serverBuildDirectory: "build",
   appDirectory: "app",
-  serverModuleFormat: "cjs",
+  serverModuleFormat: "esm",
   dev: { port: process.env.HMR_SERVER_PORT || 8002 },
   future: {},
 };
