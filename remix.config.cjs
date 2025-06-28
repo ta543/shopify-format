@@ -15,7 +15,7 @@ module.exports = {
   ignoredRouteFiles: ["**/.*"],
   serverBuildTarget: 'vercel',
   server: './server.mjs',
-  serverBuildDirectory: "dist",
+  serverBuildDirectory: "build",
   appDirectory: "app",
   serverModuleFormat: "cjs",
   dev: { port: process.env.HMR_SERVER_PORT || 8002 },
