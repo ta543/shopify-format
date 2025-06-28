@@ -3,7 +3,7 @@
 client_id = "941768e9067d82000ec449c0bd622ced"
 name = "store-currency-format"
 handle = "store-currency-format"
-application_url = "https://mass-jelsoft-maritime-tanks.trycloudflare.com"
+application_url = "https://motion-toolbox-inexpensive-loves.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-04"
 scopes = "read_orders, write_orders, write_products, read_customers, read_discounts, read_analytics"
 
 [auth]
-redirect_urls = ["https://mass-jelsoft-maritime-tanks.trycloudflare.com/auth/callback", "https://mass-jelsoft-maritime-tanks.trycloudflare.com/auth/shopify/callback", "https://mass-jelsoft-maritime-tanks.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://motion-toolbox-inexpensive-loves.trycloudflare.com/auth/callback", "https://motion-toolbox-inexpensive-loves.trycloudflare.com/auth/shopify/callback", "https://motion-toolbox-inexpensive-loves.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

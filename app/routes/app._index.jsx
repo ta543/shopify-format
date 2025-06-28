@@ -116,8 +116,8 @@ export const action = async ({ request }) => {
 export default function Index() {
   const fetcher = useFetcher();
   const shopify = useAppBridge();
-  const { totalSales } = useLoaderData();
-  // const totalSales = 153_800_000; // 💰 Mocked value for testing "M" suffix
+  // const { totalSales } = useLoaderData();
+  const totalSales = 153800; // 💰 Mocked value for testing "M" suffix
   const isLoading =
     ["loading", "submitting"].includes(fetcher.state) &&
     fetcher.formMethod === "POST";
