@@ -38,6 +38,13 @@ Using pnpm:
 pnpm install
 ```
 
+### Configure environment variables
+
+Copy `.env.example` to `.env` and update the values with your Shopify app
+credentials. The `SHOPIFY_APP_DISTRIBUTION` variable controls how the app is
+distributed. Set it to `ShopifyAdmin` to use the app privately on your own
+stores.
+
 ### Local Development
 
 Using yarn:
